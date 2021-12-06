@@ -1,22 +1,29 @@
-.logo{
-    height: 85px;
-    width: 120px;
-}
-
-.content{
+body {
     margin-left: 15%;
     margin-right: 15%;
-}
-
-.font{
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-style: italic;
 }
 
+.logo{
+    height: 85px;
+    width: 120px;
+}
+
 .search{
-    width: 350px;
     align-items: center;
     justify-content: center;
+}
+
+.head-menu .container-fluid .center-side ul {
+    justify-content: center;
+}
+
+.button-group button{
+    border: 0;
+    background-color: white;
+    margin-top: 10px;
+    font-style: italic;
 }
