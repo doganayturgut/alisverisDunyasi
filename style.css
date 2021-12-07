@@ -12,14 +12,18 @@ body {
     grid-gap: 10px;
 }
 
+.member-side a{
+    margin-right: 15px;
+}
+
 .logo{
     height: 85px;
-    width: 120px;
 }
 
 .search{
     align-items: center;
     justify-content: center;
+    width: 500px;
 }
 
 .head-menu .container-fluid .center-side ul {
