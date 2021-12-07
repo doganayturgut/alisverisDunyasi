@@ -6,6 +6,11 @@ body {
     font-weight: bold;
     font-style: italic;
 }
+.button-group{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-gap: 10px;
+}
 
 .logo{
     height: 85px;
@@ -26,4 +31,10 @@ body {
     background-color: white;
     margin-top: 10px;
     font-style: italic;
+}
+
+.button-group button:hover{
+    text-decoration: underline;
+    position: relative;
+    right: -10px;
 }
